@@ -1,0 +1,193 @@
+:hov
+.cls
+.carousel-inner > .carousel-item {
+    -webkit-transition: -webkit-transform 0s;
+    transition: -webkit-transform 0s ease-in-out; 
+    -o-transition: -o-transform 0s ease-in-out;
+    transition: transform 0s ease-in-out; 
+    transition: transform 0s ease-in-out, -webkit-transform 0s ease-in-out, -o-transform 0s ease-in-out; 
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden; 
+    -webkit-perspective: 1000px; 
+    perspective: 1000px; 
+}
+
+.carousel-inner .active.left { 
+    /*left: -203px; */
+}
+.carousel-inner .active.right { 
+    /*left: 203px; */
+}
+.carousel-inner > .next { 
+    left:  15%; 
+}
+.carousel-inner > .prev { 
+    left: -15%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 2%;
+    margin-left: 25px;
+
+    opacity: 0.5;
+}
+
+.carousel-control-prev {        
+    position: absolute;
+    /*set position of image from top to be 50%...*/
+    top: 50%;
+    /*and then shift it down to make it perfectly center.*/
+    transform: translate(-50%, -50%);
+
+    z-index: 5;
+    display: inline-block;
+}
+
+.carousel-control-next {        
+    position: absolute;
+    right: 0px;
+    /*set position of image from top to be 50%...*/
+    top: 50%;
+    /*and then shift it down to make it perfectly center.*/
+    transform: translate(-50%, -50%);
+
+    z-index: 5;
+    display: inline-block;
+}
+/***********************************************/
+
+.asignatura {
+    /*width: 204px;*/
+    height: 204px;
+
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.btn {
+    padding: 0;
+}
+
+.asignaturaEstado {
+    display: flex;
+    font-size: 0.8rem;
+    vertical-align: middle;
+}
+
+.asignaturaEstado i {
+    margin-right: 10px;
+}
+
+.asignaturaNombre {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+    min-height: 150px;
+    height: 150px;
+    width: 90%;
+}
+
+.asignaturaNombre p {
+    position:absolute;
+    bottom:0;
+    right:0;
+    margin-right: 10px !important;
+    margin-bottom: 0px !important;
+
+    font-size: 1.2rem;
+    text-align: right;
+
+    white-space: pre-wrap;      /* CSS3 */   
+    white-space: -moz-pre-wrap; /* Firefox */    
+    white-space: -pre-wrap;     /* Opera <7 */   
+    white-space: -o-pre-wrap;   /* Opera 7 */    
+    word-wrap: break-word;      /* IE */
+}
+
+
+.asignatura1,
+.asignatura2,
+.asignatura3,
+.asignatura4,
+.asignatura5,
+.asignatura6 {
+    width: 195px;
+    height: 195px;
+
+    position: relative;
+    min-height: 195px;
+
+    padding: 10px;
+
+    color: rgb(254,254,254);
+}
+
+.asignatura1 {
+    background-color: rgb(25,66,125);
+}
+
+.asignatura2 {
+    background-color: rgb(44,118,144);
+}
+
+.asignatura3 {
+    background-color: rgb(29,142,173);
+}
+
+.asignatura4 {
+    background-color: rgb(20,93,161);
+}
+
+.asignatura5 {
+    background-color: rgb(44,157,170);
+}
+
+.asignatura6 {
+    background-color: rgb(29,130,191);
+}
+
+.usuarioNombre {
+    color: rgb(0,65,127);
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+    font-size: 5.5rem;
+    line-height: 5.5rem;
+    
+    display: flex;
+    height: 6rem;
+    padding: 0rem;
+}
+
+#usuario {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.usuarioInfo {
+    margin-top: auto;
+    margin-bottom: auto;
+
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#usuarioInfo {
+    font-weight: 400;
+    color: rgb(29,69,131);
+    text-align: right;
+
+    font-size: 0.8rem;
+    line-height: 1rem;
+    
+    margin-bottom: 0rem;
+}
+
+.icono_usuario {
+    width: 84px;
+    height: 84px;
+
+    background-image : url(../images/icono_usuario.png);
+    background-repeat : no-repeat;
+}

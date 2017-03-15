@@ -1,0 +1,28 @@
+select.custom-select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearancce: none;
+
+    background-position: right 0.75rem center;
+    background-repeat: no-repeat;
+    background-size: 8px 10px;
+    background-image: url("data:image/svg+xml,\
+        <svg version='1.1' xmlns='http://www.w3.org/2000/svg' width='14px'\
+        height='14px' viewBox='0 0 1200 1000' fill='rgb(255, 255, 255)'>\
+        <path d='M1100 411l-198 -199l-353 353l-353 -353l-197 199l551 551z'/>\
+        </svg>");
+    border: 0px;
+    border-radius: 0px;
+    color: #ffffff;
+    background-color: #1d4583;
+}
+
+select.custom-select:focus {
+    color: #ffffff;
+    background-color: #1d4583;
+}
+
+select.custom-select option:not(:checked){
+    color: #ffffff;
+    background-color: #1d4583;
+}

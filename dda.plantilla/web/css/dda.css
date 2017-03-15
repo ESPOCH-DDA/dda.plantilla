@@ -1,0 +1,350 @@
+@charset "utf-8";
+
+body { 
+    padding-top: 71px; /*Altura del menú*/
+}
+
+.bg-inverse {
+    background-color: #000000!important;
+}
+
+.bg-warning {
+    background-color: #faffbd!important;
+}
+
+.tag-warning {
+    color: gold!important;
+    background-color: #1d4583!important;
+}
+
+.dda-row {
+    display: flex;
+}
+
+.alertaNumero {
+    position: absolute;
+    top: 0.6rem;
+    margin-left: 0.9rem;
+    height: 22px;
+    width: 22px;
+    text-align: center;
+    font-size: small;
+    border-radius: 12px;
+    background-color: rgb(0,67,125);
+    color: rgb(245, 245, 245);
+    font-weight: 900;
+}
+
+.alertaIcono {
+    color: rgb(205, 205, 205);
+    font-size: x-large;
+    margin-top: 0.3rem;
+}
+
+#contenidoDeshabilitado {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    z-index:2;
+    opacity:0.4;
+    filter: alpha(opacity = 50);
+}
+
+#contenidoPrincipal {
+    height: 26rem;
+    background-color: rgb(210,210,210);
+
+    width: 74.7%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+#contenidoEncabezadoDetalle {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+#contenidoEncabezadoAsignatura {
+    display: flex;
+    height: 6.5rem;
+}
+
+#contenidoIcono {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+#contenidoTitulo {
+    color: rgb(0,65,127);
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif!important;
+    font-size: 1rem;
+    line-height: 1rem;
+    
+    height: 1rem;
+    margin-bottom: auto;
+    margin-top: auto;
+    padding: 0px;
+}
+
+#contenidoInfo {
+    height: 2rem;
+    font-size: 1.4rem;
+
+    text-align: right;
+    padding: 0rem;
+}
+
+#contenidoDinamicoScrollbar {
+    height: 22rem;
+    background-color: rgb(254,254,254);
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#contenidoDinamico {
+    min-height: 21rem;
+    background-color: rgb(254,254,254);
+}
+
+#contenidoPie {
+    line-height: 2rem;
+}
+
+.contenidoTitulo {
+    display: flex;
+    height: 6rem;
+    padding: 0rem;
+}
+
+#btnMenu {
+    height: 6rem;
+    display: flex;
+
+    padding-top: 1.8rem;
+}
+
+.dropdown-menu-right{
+    text-align: right;
+    white-space: nowrap;
+
+    margin-right: -0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.float-xs-right {
+    margin-top: 0.5rem;
+    padding-right: 8px;
+}
+
+footer {
+    font-size: 0.6rem;
+    width: 98.8%;
+    margin-top: 0.2rem;
+}
+
+hr {
+    border-top-color: rgb(0,0,0);
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+
+.icono_menu {
+    width: 84px;
+    height: 84px;
+
+    margin: auto;
+
+    background-image : url(../images/icono_menu.png);
+    background-repeat : no-repeat;
+}
+
+main {
+    height: 555px;
+}
+
+#mainContainer {
+    margin-top: 0px;
+    margin-left: 71px;
+    margin-right: 71px;
+
+    width: auto;
+}
+
+#menuLateralScrollbar {
+    height: 26rem;
+
+    padding: 0.3rem;
+    width: 24.7%;
+    margin-left: 0.2rem;
+
+    background-color: rgb(0,65,127);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#menuLateral {
+    height: 24rem;
+    color: rgb(254,254,254);
+    background-color: rgb(0,65,127);
+}
+
+#menuVertical {
+    margin-top: 0.7rem;
+    margin-right: 0.5rem;
+}
+
+#menuVerticalItems {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+#menuHorizontal {
+    margin-top: 0.7rem;
+    margin-left: 0.5rem!important;
+}
+
+#menuHorizontalItems{
+    list-style-type: none;
+}
+
+.name {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-weight: 600;
+}
+
+.nav {
+    height: 71px;
+}
+
+.navbar {
+    padding: 0px;
+    margin: 0px;
+
+    height: 71px;
+
+    border-radius : 0px 0px 0px 34px !important;
+    -moz-border-radius : 0px 0px 0px 34px !important;
+    -webkit-border-radius : 0px 0px 0px 34px !important;
+}
+
+.navbar-brand {
+    padding: 0px;
+    margin: 0px;
+}
+
+.sello_espoch_image {
+    width: 71px;
+    height: 71px;
+
+    background-image : url(../images/sello_espoch.png);
+    background-repeat : no-repeat;
+}
+
+.sui-treeview {
+    padding-top: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+
+    background-color: rgb(0,65,127);
+    color: rgb(254,254,254);
+}
+
+.sui-treeview-item-text {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif!important;
+
+    font-size: 1rem;
+    line-height: 1rem;
+
+    width: 96%;
+}
+
+.sui-treeview-item-text .float-xs-right{
+    margin-top: 0rem;
+}
+
+#titulo {
+    font-weight: 600;
+    color: rgb(0,65,127);
+
+    font-size: 2.9rem;
+    line-height: 2.9rem;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#subtitulo {
+    font-weight: 400;
+    color: rgb(0,65,127);
+    text-align: right;
+
+    font-size: 0.6rem;
+    line-height: 0.7rem;
+
+    height: 2rem;
+}
+
+#brrNavegacion {
+    margin-left: -12px;
+    margin-right: -12px;
+
+    margin-bottom: 0.3rem;
+    background-color: rgb(0,65,127);
+    color: #ffffff;
+}
+
+.text-small-caps {
+    font-variant: small-caps !important;
+
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.unidad {
+}
+
+.tema {
+    padding-left: 2rem;
+}
+
+.subtema {
+    padding-left: 4rem;
+}
+
+.unidad, .tema, .subtema {
+    margin-bottom: 0.2rem;
+}
+
+/******************************************************************************/
+
+#contenidoDinamicoScrollbar::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0px 0px 1px 0px rgba(0,0,0,0);
+    background-color: #F5F5F5;
+}
+
+#contenidoDinamicoScrollbar::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+#contenidoDinamicoScrollbar::-webkit-scrollbar-thumb {
+    background-color: #808080;
+}
+
+#menuLateralScrollbar::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0px 0px 1px 0px rgba(0,0,0,0);
+    background-color: #F5F5F5;
+}
+
+#menuLateralScrollbar::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+#menuLateralScrollbar::-webkit-scrollbar-thumb {
+    background-color: #808080;
+}
